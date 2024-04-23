@@ -1,0 +1,210 @@
+.up{
+    background-color: bisque;
+}
+.home{
+    position: absolute;
+    top: 40px;
+    right: 450px;
+    border: 1px black solid;
+    padding: 5px;
+}
+.aboutus{
+    position: absolute;
+    top: 40px;
+    right: 370px;
+    border: 1px black solid;
+    padding: 5px;
+}
+.services{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+    border: 1px black solid;
+    background-color: rgb(149, 149, 255);
+    padding: 5px;
+}
+.who{
+    position: absolute;
+    top: 40px;
+    right: 150px;
+    border: 1px black solid;
+    padding: 5px;
+}
+.contact{
+    position: absolute;
+    top: 40px;
+    right: 80px;
+    border: 1px black solid;
+    padding: 5px;
+}
+.celle{
+    position: absolute;
+    top: 100px;
+    right: 100px;
+}
+.one{
+    width: 400px;
+    background-color: rgb(195, 180, 180);
+    padding: 10px;
+    position: relative;
+    height: 180px;
+    top: 40px;
+}
+.one img{
+    position: relative;
+}
+.one h3{
+    position: relative;
+    top: -55px;
+    left: 90px;
+    font-size: 30px;
+}
+.one h6{
+    position: relative;
+    top: -140px;
+    left: 90px;
+    font-size: 14px;
+}
+.one hr{
+    position: relative;
+    top: -170px;
+    left: 30px;
+    width: 290px
+}
+.one p{
+    position: relative;
+    width: 280px;
+    left: 90px;
+    top: -180px;
+}
+.two{
+    width: 400px;
+    background-color: rgb(195, 180, 180);
+    padding: 10px;
+    position: relative;
+    height: 180px;
+    top: -160px;
+    left: 700px
+}
+.two img{
+    position: relative;
+}
+.two h3{
+    position: relative;
+    top: -55px;
+    left: 90px;
+    font-size: 30px;
+}
+.two h6{
+    position: relative;
+    top: -140px;
+    left: 90px;
+    font-size: 14px;
+}
+.two hr{
+    position: relative;
+    top: -170px;
+    left: 30px;
+    width: 290px
+}
+.two p{
+    position: relative;
+    width: 280px;
+    left: 90px;
+    top: -180px;
+}
+.three{
+    width: 400px;
+    background-color: rgb(195, 180, 180);
+    padding: 10px;
+    position: relative;
+    height: 180px;
+    top: -130px;
+}
+.three img{
+    position: relative;
+}
+.three h3{
+    position: relative;
+    top: -55px;
+    left: 90px;
+    font-size: 30px;
+}
+.three h6{
+    position: relative;
+    top: -140px;
+    left: 90px;
+    font-size: 14px;
+}
+.three hr{
+    position: relative;
+    top: -170px;
+    left: 30px;
+    width: 290px
+}
+.three p{
+    position: relative;
+    width: 280px;
+    left: 90px;
+    top: -180px;
+}
+.four{
+    width: 400px;
+    background-color: rgb(195, 180, 180);
+    padding: 10px;
+    position: relative;
+    height: 180px;
+    top: -330px;
+    left: 700px;
+}
+.four img{
+    position: relative;
+}
+.four h3{
+    position: relative;
+    top: -55px;
+    left: 90px;
+    font-size: 30px;
+}
+.four h6{
+    position: relative;
+    top: -140px;
+    left: 90px;
+    font-size: 14px;
+}
+.four hr{
+    position: relative;
+    top: -170px;
+    left: 30px;
+    width: 290px
+}
+.four p{
+    position: relative;
+    width: 280px;
+    left: 90px;
+    top: -180px;
+}
+.site{
+    position: relative;
+    top: -280px;
+}
+.site p{
+    color: blue;
+}
+.client{
+    position: relative;
+    top: -435px;
+    left: 150px;
+    width: 180px;
+}
+.maps{
+    position: relative;
+    top:-630px;
+    left: 450px;
+}
+.info{
+    position: relative;
+    top: -870px;
+    left: 900px;
+
+}

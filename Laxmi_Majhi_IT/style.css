@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1d1d24;
+}
+
+.hero {
+  width: 100%;
+  height: 45vh;
+  padding: 20px;
+  background-size: cover;
+}
+
+.index-img {
+  max-width: 300px; 
+  height: auto; 
+  display: block; 
+  margin: 20px auto; 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.index-img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+
+.logo {
+  max-height: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 10px 20px;
+  position: relative; 
+}
+
+nav ul li a {
+  display: inline-block; 
+  position: relative;
+}
+
+nav ul li a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: #fd4766;
+  width: 0%; 
+  transition: width 0.3s ease;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+nav ul li a:hover {
+  color: #fd4766;
+}
+
+.btn {
+  color: #fff;
+  background: #fd4766;
+  border: 2px solid #fd4766;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 16px 40px;
+  border-radius: 500px;
+  display: inline-block;
+  font-weight: 500;
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  background: transparent;
+  border-color: #fd4766;
+}
+
+.content {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+
+.content .title {
+  color: #0a0a0a;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  display: inline-block;
+  margin-bottom: 20px;
+  background: linear-gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #fd4766 79.69%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content h1 {
+  font-size: 60px;  
+  line-height: 1.2;  
+  white-space: nowrap;  
+  overflow: hidden;  
+  text-overflow: ellipsis;
+}
+
+.content h1 span {
+  color: #fd4766;
+}
+
+.content p {
+  width: 90%;
+  color: #202020;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+
+.section {
+  padding: 100px 100px;
+  text-align: center;
+}
+
+.section h2 {
+    font-size: 36px;
+    color: #1f1f25;
+    margin-bottom: 20px;
+    font-weight: 600;
+    position: relative;
+}
+.section h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 50%;
+  height: 4px;
+  background: #fd4766;
+}
+
+.section p {
+  color: #555;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.skillset {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+
+.skill {
+    width: 30%; 
+    margin: 10px;  
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);  
+    border-radius: 8px;  
+    background: #fff;  
+    text-align: center; 
+}
+
+.skill h3 {
+    color: #fd4766;  
+}
+
+.skill p {
+    font-size: 16px;  
+}
+
+@media (max-width: 768px) {
+    .skill {
+        width: 100%;  
+        margin: 10px 0; 
+    }
+}
+
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  overflow: hidden;  
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+  aspect-ratio: 1 / 1; 
+  display: flex;  
+  justify-content: center; 
+  align-items: center; 
+}
+
+.gallery-item img {
+  width: 100%;  
+  height: 100%; 
+  object-fit: cover; 
+  object-position: center; 
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+
+.skill {
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  background-color: #fff; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.skill:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 20px 20px rgba(0,0,0,0.2); 
+}
+
+.skillset, .gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.skill, .gallery-item {
+  width: calc(33.333% - 20px);
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skill h3, .gallery-item h3 {
+  font-size: 24px;
+  color: #fd4766;
+  margin-bottom: 10px;
+}
+
+.skill p, .gallery-item img {
+  margin-top: 10px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fd4766;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #fd4766;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #e8435a;
+}
+
+.contact-section {
+  max-width: 600px;
+  margin: 80px auto; 
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  text-align: center; 
+
+.contact-details {
+  margin-top: 40px; 
+}
+
+.contact-details ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.contact-details ul li, .contact-details ul a {
+  display: inline-block;
+  margin: 10px 15px;
+  color: #666;
+}
+
+.contact-details ul a {
+  color: inherit; 
+  transition: color 0.3s ease; 
+}
+
+
+.contact-details .fab.fa-instagram {
+  color: #C13584; 
+}
+
+.contact-details .fab.fa-facebook-f {
+  color: #3b5998; 
+}
+
+.contact-details .fab.fa-twitter {
+  color: #1DA1F2;
+}
+
+.logo {
+  max-height: 350px; 
+  width: auto;
+}
+
+
+
+}
